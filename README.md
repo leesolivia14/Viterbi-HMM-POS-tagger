@@ -1,7 +1,7 @@
 # Viterbi-HMM-POS-tagger
 
-# This program takes in the WSJ_23.words corpus, which is a corpus consisting of words only.
-It produces an output file called submission.pos which predicts the part-of-speech of every word in WSJ_23.words.
+<b> This program takes in the WSJ_23.words corpus, which is a corpus consisting of words only.
+It produces an output file called submission.pos which predicts the part-of-speech of every word in WSJ_23.words. </b>
 
 <b>The Hidden Markov Model (HMM) in sl8055_trainHH_HW3.py is trained based on the Training file and Development file.</b>
 - Transition table: contains probability of every part-of-speech tag and the part-of-speech tag that comes after.
