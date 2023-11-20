@@ -1,9 +1,13 @@
 # Viterbi-HMM-POS-tagger
 
 Training file (WSJ_02-21.pos): ~950K words, ~40k sentences
+
 Development file (WSJ_24.pos): ~32.9K words, ~1350 sentences
+
 Development test file (WSJ_24.words): the same as WSJ_24.pos, but without the POS tags
+
 Test file (WSJ_23.words): ~56.7K words, ~2415 sentences
+
 These words all come from the Wall Street Journal.
 
 This program takes in the WSJ_23.words corpus, which is a corpus consisting of words only.
