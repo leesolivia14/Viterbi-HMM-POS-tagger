@@ -10,6 +10,9 @@ Test file (WSJ_23.words): ~56.7K words, ~2415 sentences
 
 These words all come from the Wall Street Journal.
 
+
+
+
 This program takes in the WSJ_23.words corpus, which is a corpus consisting of words only.
 It produces an output file called submission.pos which predicts the part-of-speech of every word in WSJ_23.words.
 
