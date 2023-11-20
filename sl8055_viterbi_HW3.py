@@ -1,7 +1,4 @@
 import train as ts
-import numpy as np
-import os
-from collections import defaultdict
 
 # use the training corpus to create the tables
 
@@ -38,7 +35,6 @@ def generate_transducer_chart(sentence, TRANSITION_PROBS, EMISSION_PROBS):
     for i in range(len(chart)-2):
         
         if sentence[0] in EMISSION_PROBS[pos_list[i]] and pos_list[i] in TRANSITION_PROBS['Begin_Sent']:
-            print('brah')
             new_percentage = TRANSITION_PROBS['Begin_Sent'][pos_list[i]] * EMISSION_PROBS[pos_list[i]][sentence[0]]
             chart[i][0] = new_percentage
             # choose the most likely POS of the first word.
